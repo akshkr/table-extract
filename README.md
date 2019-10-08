@@ -30,13 +30,13 @@ Script for processing the output of `pdf2hocr`.
 python do_extract.py ~/Documents/doc
 ````
 
-## annotate.py
+### annotate.py
 Creates a PNG that shows the areas of a page identified by Tesseract. Useful for debugging.
 
-## helpers.py
+### helpers.py
 Various functions for processing tables.
 
-## table_extractor.py
+### table_extractor.py
 Entry script to table extraction.
 
 #### extract_tables(document_path)
